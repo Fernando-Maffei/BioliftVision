@@ -1,0 +1,23 @@
+Lista de bibliotecas utilizadas no projeto
+
+Principais bibliotecas:
+- PyQt5
+- numpy
+- opencv-python (cv2)
+- mediapipe
+- joblib
+- scikit-learn
+- packaging
+
+Bibliotecas opcionais (usadas se instaladas):
+- seaborn
+- pyqtgraph
+- reportlab
+
+Notas de compatibilidade e uso:
+- Versão de Python recomendada: 3.10 (MediaPipe pode falhar em 3.12 com erro de DLL).
+- Ambiente: preferir executar com `venv310`.
+- Fluxo atual: aplicação focada em análise (treino removido do app). O modelo é carregado silenciosamente se disponível.
+- Caminho padrão do modelo: `model/model.pkl`; fallback legado: `models_oneclass/powerlifting_model.joblib`.
+- Resolução de recursos (ícones/fundos): via `common.paths.resource_path`, compatível com execução normal e PyInstaller.
+- Logs: usar helpers de `common.logger` (`log_info`, `log_warning`, `log_error`) com uma única string por chamada.

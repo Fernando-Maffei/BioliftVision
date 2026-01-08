@@ -1,0 +1,16 @@
+Histórico de Tentativas
+TEST, Agachamento, 1, Aprovado, Confirmado, 06:17:07
+TEST, Agachamento, 1, Aprovado, Confirmado, 06:16:54
+teste, Agachamento, 1, Aprovado, Confirmado, 06:12:58
+Fernando, Agachamento, 1, Aprovado, Confirmado, 06:08:25
+Fernando, Agachamento, 1, Aprovado, Confirmado, 06:08:21
+Fernando, Agachamento, 1, Reprovado, Confirmado, 05:48:41
+Fernando, Agachamento, 1, Reprovado, Confirmado, 05:45:07
+Fernando, Agachamento, 1, Reprovado, Confirmado, 05:44:59
+Fernando, Agachamento, 1, Reprovado, Confirmado, 05:44:54
+Fernando, Agachamento, 1, Aprovado, Confirmado, 20:48:29
+Enza, Agachamento, 1, Reprovado, Confirmado, 15:26:06
+Fernando, Agachamento, 1, Aprovado, Confirmado, 15:15:55
+Fernando, Agachamento, 1, Aprovado, Inválido, 15:14:52
+Fernando, Agachamento, 1, Aprovado, Confirmado, 12:39:01
+Murillo, Agachamento, 1, Aprovado, Confirmado, 12:56:15

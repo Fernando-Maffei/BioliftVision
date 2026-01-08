@@ -1,0 +1,9 @@
+{
+  "dataset": "dataset\\processed_oneclass\\training_data.parquet",
+  "metrics": {
+    "accuracy": 0.934283452098179,
+    "precision": 1.0,
+    "recall": 0.934283452098179,
+    "f1": 0.9660253786328284
+  }
+}

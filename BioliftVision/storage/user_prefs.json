@@ -1,0 +1,100 @@
+{
+  "history": [
+    {
+      "input_dir": "dataset",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "parquet",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "parquet",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "parquet",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "parquet",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "parquet",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "parquet",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "npz",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "npz",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "npz",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "npz",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "parquet",
+      "auto": true
+    },
+    {
+      "input_dir": "dataset\\Exercicios",
+      "stride": 10,
+      "max_frames": 120,
+      "workers": 8,
+      "format": "npz",
+      "auto": true
+    }
+  ]
+}

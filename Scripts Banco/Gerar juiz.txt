@@ -1,0 +1,24 @@
+/***Gerar juiz****/
+
+INSERT INTO dbo.users (
+    name,
+    username,
+    email,
+    password_hash,
+    salt,
+    role,
+    is_active,
+    created_at,
+    is_admin
+)
+VALUES (
+    'Juiz do Sistema',
+    'juiz',
+    'juiz@biolift.com',
+    'c9e2693d008b012da386a8d6e25fd9e3b08043ab260fbed6f72c6db13848d2d9',
+    'ac748854503384aa1eede280fef51175',
+    'judge',
+    1,
+    SYSUTCDATETIME(),
+    0
+);

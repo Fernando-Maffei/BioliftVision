@@ -1,0 +1,26 @@
+[
+  {
+    "provider": "SQL Server",
+    "server": ".",
+    "database": "bioliftvisionDB",
+    "auth": "SQL Server",
+    "username": "sa",
+    "ts": "2025-12-09T16:31:16.807561"
+  },
+  {
+    "provider": "SQL Server",
+    "server": "localhost",
+    "database": "bioliftvisionDB",
+    "auth": "SQL Server",
+    "username": "sa",
+    "ts": "2025-12-09T12:45:00.000000"
+  },
+  {
+    "provider": "SQL Server",
+    "server": "localhost",
+    "database": "bioliftvisionDB",
+    "auth": "SQL Server",
+    "username": "sa",
+    "ts": "2025-12-09T12:45:00.000000"
+  }
+]

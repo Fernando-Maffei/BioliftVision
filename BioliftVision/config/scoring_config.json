@@ -1,0 +1,71 @@
+{
+  "squat": {
+    "depth": {
+      "thresholds": {
+        "excellent": 92,
+        "very_good": 105,
+        "good": 115,
+        "regular": 125,
+        "poor": 135
+      }
+    },
+    "stability": {
+      "thresholds": {
+        "excellent": 0.035,
+        "very_good": 0.06,
+        "good": 0.10,
+        "regular": 0.14,
+        "poor": 0.22
+      }
+    },
+    "torso_position": {
+      "thresholds": {
+        "excellent": 7,
+        "very_good": 12,
+        "good": 17,
+        "regular": 22,
+        "poor": 32
+      }
+    }
+  },
+  "deadlift": {
+    "lockout": {
+      "thresholds": {
+        "excellent": 176,
+        "very_good": 174,
+        "good": 170,
+        "regular": 165,
+        "poor": 160
+      },
+      "weight": 0.42
+    },
+    "back_position": {
+      "thresholds": {
+        "excellent": 12,
+        "very_good": 17,
+        "good": 22,
+        "regular": 27,
+        "poor": 37
+      },
+      "weight": 0.28
+    },
+    "bar_path": {
+      "thresholds": {
+        "excellent": 0.06,
+        "very_good": 0.09,
+        "good": 0.13,
+        "regular": 0.19,
+        "poor": 0.26
+      }
+    },
+    "hip_extension": {
+      "thresholds": {
+        "excellent": 172,
+        "very_good": 168,
+        "good": 164,
+        "regular": 159,
+        "poor": 150
+      }
+    }
+  }
+}

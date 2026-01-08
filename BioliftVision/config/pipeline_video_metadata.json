@@ -1,0 +1,26 @@
+{
+  "data": {
+    "train_path": "dataset/metadata/video_metadata.csv",
+    "label_col": null,
+    "ignore_cols": [
+      "path",
+      "filename",
+      "codec_video",
+      "codec_audio",
+      "container",
+      "codec_fourcc_str"
+    ]
+  },
+  "training": {
+    "algorithm": "oneclass_svm",
+    "optimize": true,
+    "param_grid": {
+      "nu": [0.01, 0.05, 0.1, 0.2],
+      "gamma": ["scale", "auto"],
+      "kernel": ["rbf", "linear"]
+    }
+  },
+  "serialization": {
+    "output_dir": "model"
+  }
+}

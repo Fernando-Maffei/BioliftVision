@@ -1,0 +1,27 @@
+{
+  "data": {
+    "train_path": "latest",
+    "label_col": "label",
+    "ignore_cols": ["video", "filename", "file", "path", "exercise"]
+  },
+  "training": {
+    "algorithm": "oneclass_svm",
+    "optimize": true,
+    "param_grid": {
+      "nu": [0.01, 0.05, 0.1],
+      "gamma": ["scale", "auto"],
+      "kernel": ["rbf"]
+    }
+  },
+  "serialization": {
+    "format": "joblib",
+    "output_dir": "model",
+    "versioned": true
+  },
+  "integration": {
+    "auto_load_on_start": true
+  },
+  "tests": {
+    "run_on_start": false
+  }
+}
