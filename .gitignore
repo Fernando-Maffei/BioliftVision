@@ -179,3 +179,23 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# ---- BioLiftVision ----
+# IDEs
+.vs/
+.vscode/
+# Configuração local (credenciais de banco)
+.env
+.env.*
+!.env.example
+# Dados gerados em tempo de execução
+logs/
+dataset/runtime_buffer/
+storage/*.json
+storage/*.db
+storage/*.csv
+storage/test_assets/
+historico.txt
+# Vídeos do dataset (não versionados)
+*.mp4
+*.mov
+*.avi
