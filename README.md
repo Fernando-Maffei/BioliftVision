@@ -16,6 +16,7 @@ e indica se o movimento atende aos critérios do livro de regras da IPF.
 ![PyQt5](https://img.shields.io/badge/PyQt5-Desktop-41CD52?logo=qt&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-ODBC-CC2927)
 ![Status](https://img.shields.io/badge/TCC-aprovado-2ea44f)
+![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)
 
 </div>
 
@@ -89,13 +90,13 @@ flowchart LR
 
 ## Resultados
 
-O modelo final foi treinado com **72.216 quadros** de execuções corretas e reconheceu
-**93,4%** deles como dentro do padrão (68.547 quadros).
+Na avaliação do modelo sobre **72.216 quadros** de execuções corretas, **68.547 (94,9%)**
+foram reconhecidos como dentro do padrão.
 
 | Métrica | Valor |
 |---|---|
-| Quadros de execuções corretas | 72.216 |
-| Reconhecidos como dentro do padrão | 93,4% |
+| Quadros de execuções corretas avaliados | 72.216 |
+| Reconhecidos como dentro do padrão | 68.547 (94,9%) |
 | Features por quadro | 58 |
 | Algoritmo | One-Class SVM (RBF) |
 
@@ -108,6 +109,9 @@ execuções corretas; ele não mede a capacidade de rejeitar tentativas inválid
 de um conjunto rotulado com movimentos reprovados (ver [Trabalhos futuros](#trabalhos-futuros)).
 A matriz gerada está em
 [results_oneclass/oneclass_confusion_matrix.png](results_oneclass/oneclass_confusion_matrix.png).
+A última avaliação em lote salva em
+[results_oneclass/evaluation_results.json](results_oneclass/evaluation_results.json)
+registrou 93,4% com a mesma metodologia.
 
 </details>
 
@@ -201,3 +205,7 @@ As regras de referência estão no
 |---|---|
 | **Fernando Maffei** | [@Fernando-Maffei](https://github.com/Fernando-Maffei) |
 | **Murillo Badio** | |
+
+## Licença
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
